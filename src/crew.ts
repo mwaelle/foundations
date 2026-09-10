@@ -5,7 +5,7 @@ import type { CrewCard } from "./types/CrewCard";
 import { teams } from "./data/teams";
 
 
-//fonction permettant de renvoyer la fiche d'affichage du membre
+//fonction permettant de renvoyer le nom et rôle, s'il en a un, du membre passé en paramètre
 export const getDisplayName = (crewMember : CrewMember) : string =>
     crewMember.name + " : " + (crewMember.role ?? "Sans rôle");
 
