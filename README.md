@@ -64,6 +64,8 @@ Bonus : tests unitaires
     3. Pour s'assurer que le résultat est bien celui attendu et pour s'assurer que les données d'origine n'ont pas été modifiées
 
 Bonus : chargement asynchrone
-    
+    1. Car on ne peut pas être sûr de son type, il faut le vérifier 
+    2. Non "as" ne permet pas de valider, elle fait simplement une assertion de type
+    3. Les 2 ont une forme identique dans le sens où les propriétés qu'ils contiennent changent en fonction d'un discriminant, pour safeParse c'est "success" pour MissionState c'est "status"
 
 Utilisation de l'IA

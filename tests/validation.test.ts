@@ -13,14 +13,14 @@ describe("parseCrewMembersResponse", () => {
                     id: 1,
                     name: "Alonzo Church",
                     teamId: 1,
-                    status: "disponible",
+                    status: "disponible" as const,
                     skills: ["navigation", "ingénierie"]
                 },
                 {
                     id: 2,
                     name: "Haskell Curry",
                     teamId: 1,
-                    status: "disponible",
+                    status: "disponible" as const,
                     role: "Commandant de mission",
                     skills: ["communication"]
                 }
