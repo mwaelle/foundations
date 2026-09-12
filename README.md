@@ -15,7 +15,9 @@ bun run index.ts
 This project was created using `bun init` in bun v1.4.2. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
 
 
-Exercice 2
+Maëlle MONTAUBAN, maelle.montauban6@etu.univ-lorraine.fr, groupe M1
+
+@Exercice 2
     1. La propriété du résultat attendu
     2. Elle permet de ne garder que les membres dont le statut est "disponible"
     3. Elles produisent une nouvelle valeur
@@ -68,4 +70,9 @@ Bonus : chargement asynchrone
     2. Non "as" ne permet pas de valider, elle fait simplement une assertion de type
     3. Les 2 ont une forme identique dans le sens où les propriétés qu'ils contiennent changent en fonction d'un discriminant, pour safeParse c'est "success" pour MissionState c'est "status"
 
-Utilisation de l'IA
+
+Utilisation de l'IA :
+    - Demander les conventions d'écriture (par exemple : comment déclarer un type Sum, comment déclare-t-on une fonction, comment utiliser le spread, comment indiquer qu'une propriété est optionnelle, comment utiliser l'opérateur de coalescence des valeurs nulles, comment utiliser find) en complément de recherches sur Internet, notamment avec MDN Web Docs, et sur la documentation
+    - Demander une vérification du code (par exemple : est-ce que cette fonction est bien écrite, est-ce que le code respecte bien ce qui est demandé)
+    - Rechercher la cause d'une erreur
+    - Demander si les résultats en console sont bien ceux attendus (par exemple : bunx tsc --noEmit ne renvoie rien)
