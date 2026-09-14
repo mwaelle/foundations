@@ -15,9 +15,11 @@ bun run index.ts
 This project was created using `bun init` in bun v1.4.2. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
 
 
-Maëlle MONTAUBAN, maelle.montauban6@etu.univ-lorraine.fr, groupe M1
+Prénom NOM : Maëlle MONTAUBAN
+Adresse universitaire : maelle.montauban6@etu.univ-lorraine.fr
+Groupe de TD : groupe M3
 
-@Exercice 2
+Exercice 2
     1. La propriété du résultat attendu
     2. Elle permet de ne garder que les membres dont le statut est "disponible"
     3. Elles produisent une nouvelle valeur
